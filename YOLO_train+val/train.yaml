@@ -1,0 +1,9 @@
+# YOLO dataset config. `path` is rewritten by the training notebook.
+path: .
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: aruco
+  1: hammer
+  2: mallet

@@ -1,0 +1,17 @@
+# raw renders and generated training set (not stored in git)
+sequences/
+YOLO_train+val/images/
+YOLO_train+val/labels/
+YOLO_train+val/split_manifest.csv
+YOLO_train+val.zip
+
+# training outputs
+YOLO_train+val/runs/
+YOLO_train+val/weights/
+*.pt
+*.onnx
+
+# environment
+.venv/
+__pycache__/
+.ipynb_checkpoints/
